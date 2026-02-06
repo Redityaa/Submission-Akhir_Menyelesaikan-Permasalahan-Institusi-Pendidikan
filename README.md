@@ -50,7 +50,7 @@ Dashboard bisnis telah dibuat untuk memudahkan manajemen Jaya Jaya Institut mema
 
 **Link Dashboard:** (Akses melalui localhost setelah menjalankan container Docker)
 
-Gambar Preview:  ![Dashboard Preview](Reditya-Dashboard.png)
+Metabase Dashboard Preview:  ![Dashboard Preview](Reditya-Dashboard.png)
 
 **Cara Menjalankan Dashboard (Docker):** Untuk mengakses dashboard beserta database yang telah dikonfigurasi, jalankan perintah berikut di terminal:
 ```
@@ -76,6 +76,8 @@ Insight utama dari Dashboard:
 ## Menjalankan Sistem Machine Learning
 Sistem prediksi risiko dropout telah dikembangkan menggunakan algoritma Random Forest Classifier yang mencapai akurasi ~90%. Sistem ini dikemas dalam bentuk aplikasi web interaktif menggunakan Streamlit.
 
+Streamlit Dashboard Preview: ![Dashboard Preview](Reditya-Dashboard1.png)
+
 **Cara Menjalankan Prototype (Lokal)**
 Pastikan seluruh dependensi sudah terinstal.
 
@@ -88,7 +90,7 @@ streamlit run app.py
 
 Aplikasi ini telah di-deploy dan dapat diakses secara online melalui tautan berikut:
 
-**Link Streamlit App:** [MASUKKAN LINK APP STREAMLIT CLOUD ANDA DI SINI]
+**Link Streamlit App:** [streamlit submission](https://submission-akhir-redityaa.streamlit.app/)
 
 ## Conclusion
 Berdasarkan analisis data dan pemodelan yang dilakukan, dapat disimpulkan bahwa:
