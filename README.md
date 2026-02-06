@@ -63,7 +63,7 @@ URL: http://localhost:3000
 
 Username: root@mail.com
 
-Password: root123
+Password: Root123
 
 Insight utama dari Dashboard:
 
@@ -104,8 +104,17 @@ Berdasarkan analisis data dan pemodelan yang dilakukan, dapat disimpulkan bahwa:
 ### Rekomendasi Action Items
 Untuk menurunkan angka dropout, direkomendasikan agar Jaya Jaya Institut melakukan langkah-langkah berikut:
 
-1. **Sistem Peringatan Dini Akademik (Academic Early Warning System):** Jangan menunggu hingga akhir tahun ajaran. Gunakan data Semester 1. Jika mahasiswa gagal lulus >50% dari SKS yang diambil, segera jadwalkan sesi konseling wajib/bimbingan akademik intensif.
+### Rekomendasi Action Items
+Berdasarkan hasil analisis data dan temuan visual dari dashboard yang telah dibuat, berikut adalah rekomendasi strategis bagi Jaya Jaya Institut:
 
-2. **Program Intervensi Finansial:** Mengingat korelasi kuat antara tunggakan SPP dan dropout, institusi sebaiknya menawarkan skema cicilan pembayaran yang lebih fleksibel atau beasiswa darurat bagi mahasiswa berprestasi yang mengalami kendala ekonomi, sebelum mereka memutuskan untuk berhenti.
+1.  **Intervensi Dini pada Keterlambatan Pembayaran SPP (Financial Support)**
+    * **Dasar Data:** Visualisasi *"Korelasi Pembayaran SPP dengan Dropout"* menunjukkan pola yang sangat mutlak. Hampir seluruh mahasiswa yang status pembayaran SPP-nya *not up to date* (bar "No") berakhir dengan status *Dropout*. Sebaliknya, tingkat kelulusan sangat tinggi pada mahasiswa yang tertib membayar.
+    * **Rekomendasi:** Institusi harus mengubah pendekatan penagihan menjadi pendekatan konseling finansial. Segera tawarkan skema cicilan (installment) atau restrukturisasi pembayaran bagi mahasiswa yang terdeteksi terlambat membayar, karena ini adalah sinyal *churn* paling awal dan paling kuat.
 
-3. **Pemanfaatan Aplikasi Prediksi saat Perwalian:** Wajibkan dosen wali untuk menggunakan aplikasi prediksi (prototype yang dibuat) setiap awal semester untuk mengecek profil risiko mahasiswa bimbingannya. Mahasiswa yang terdeteksi "High Risk" harus mendapatkan prioritas pemantauan.
+2.  **Pemantauan Ketat Indeks Prestasi di Semester 2**
+    * **Dasar Data:** Grafik *"Rata-rata Nilai Semester 2 per Status"* memperlihatkan kesenjangan performa yang signifikan. Mahasiswa yang lulus (Graduate) memiliki rata-rata nilai sekitar **13**, sedangkan mahasiswa yang *Dropout* rata-ratanya hanya di kisaran **6**.
+    * **Rekomendasi:** Tetapkan nilai rata-rata Semester 2 di bawah **10** sebagai ambang batas bahaya (*danger zone*). Mahasiswa yang performanya menyentuh angka ini wajib masuk dalam program bimbingan akademik intensif atau *mentoring* sebaya, karena data menunjukkan risiko kegagalan mereka sangat tinggi.
+
+3.  **Ekspansi Program Beasiswa Sebagai Alat Retensi**
+    * **Dasar Data:** Grafik *"Efektivitas Beasiswa"* menunjukkan bahwa proporsi *Dropout* pada penerima beasiswa (*Scholarship holder: Yes*) sangat minim dibandingkan dengan non-penerima beasiswa.
+    * **Rekomendasi:** Beasiswa terbukti efektif menahan laju *dropout*. Disarankan untuk mengalokasikan dana beasiswa khusus "Retensi" bagi mahasiswa tingkat awal yang memiliki potensi akademik baik namun terindikasi memiliki kendala finansial (seperti pada poin 1), untuk mencegah mereka berhenti kuliah.
